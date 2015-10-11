@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width">
+		<title>pic(k)it</title>
+		<link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel="stylesheet" type="text/css">
+		<link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li><a href="#"><img id="logo-img" src="logo.png" /></a></li>
+					<li id="name"><a href="">pic(k)it</a></li>
+					<li><a href="">Home</a></li>
+					<li><a href="https://shehrozekhanblog.wordpress.com/2015/10/04/pickit-my-first-project-for-mashups/" target='_blank'>About</a></li>
+					<li><a href="#" id="try-it">Try it!</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div id="main-container">
+			<div id="banner">
+				<img id="banner-img" src="bg-img.jpeg" />
+			</div>
+			<div id="query">
+				<input id="input-loc" placeholder="Enter location"></input>
+				<a href="#" id="explore" class="btn">EXPLORE</a>
+			</div>
+			<div id="map-content"></div>
+		</div>
+
+		<a href="#" class="back-to-top">Back to Top</a>
+
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBiUElG8RIzkjCq22A22UZEUAY-MpsaUQE"></script>
+		<script src="scripts.js"></script>
+	</body>
+</html>
