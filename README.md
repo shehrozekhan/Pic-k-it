@@ -1,0 +1,2 @@
+# Pic-k-it
+A client side webpage for one of my class projects, pic(k)it prompts users to input a location from anywhere in the world and uses it in two ways. First, it gives a visual representation of the location in the form of a labeled map and second, it fetches and displays the most recent pictures trending at that location. I built this from scratch. Feel free to explore, but please go easy on my API keys!
